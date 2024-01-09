@@ -1,0 +1,208 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+
+
+body{
+    font-family: 'Alegreya', serif;
+    background-color: #ecf4d6;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:5.7rem;
+    background-color: #031d44;
+    color:white;
+}
+#clogo{
+    height:4.4rem;
+    width:4.4rem;
+    border-radius:2.2rem;
+    margin-left:5%;
+}
+.heading{
+    padding-left:1.2rem;
+    padding-right:35%;
+    font-size:2.2rem;
+    font-family: 'Oswald', sans-serif;
+}
+#navli{
+    list-style: none;
+}
+.navitems{
+    display:inline;
+    margin:0rem 1.25rem;
+}
+.navlinks{
+    text-decoration: none;
+    cursor:pointer;
+    color:white;
+    font-size:1.25rem;
+    font-family: 'Abhaya Libre', serif;
+}
+nav a:link{
+    color:white;
+}
+nav a:hover{
+    border:solid 2px white;
+    border-radius: 3px;
+    padding:0.5rem;
+    background-color:#ecf4d6;
+    color:red;
+}
+
+#div1{
+    display:flex;
+    flex-direction: column;
+    background-image: url("/images/Nairobi.jpg");
+    background-size: cover;
+    background-position: center;
+    height:31.25rem;
+    padding:3.125rem 1.875rem 1.875rem 1.875rem;
+    line-height:4.375rem;
+}
+.connect{
+    font-size:2.5rem;
+}
+#button1{
+    border:2px solid black;
+    border-radius:5px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    width:12.5rem;
+    height:4.06rem;
+    padding:auto;
+    margin-top:1.25rem;
+    font-size:1.6rem;
+}
+.lbutton{
+    text-decoration: none;
+    color:black;
+}
+#extra{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    height:12.5rem;
+    justify-content: center;
+    color:white;
+}
+.extra1{
+    border-radius:10px;
+    background-color: #031d44;
+    font-family: 'Roboto', sans-serif;
+    height:10.625rem;
+    width:31.25rem;
+    padding:20px;
+    margin:30px;
+}
+.oo{
+    height:8.125rem;
+    width:8.125rem;
+    border-radius:4.1rem;
+    margin: 0px 20px 0px 0px;
+    float:left;
+}
+h4{
+    padding-bottom:10px;
+    font-size:1.6rem;
+    font-family: 'Arvo', serif;
+    color:red;
+}
+.bbt{
+    margin-top:10px;
+    border:1px solid black;
+    border-radius:5px;
+    padding:7px;
+    font-size:1rem;
+    font-weight: bold;
+}
+#des{
+    text-align: center;
+    margin:20px;
+    color:#031d44;
+    font-size:2rem;
+}
+#display{
+    display:flex;
+    flex-direction:row;
+    padding:20px;
+    margin-top:20px;
+    justify-content:space-between;
+}
+.cities{
+    font-size:2rem;
+}
+.ct{
+    width:300px;
+    height:70%;
+    border:3px solid #031d44;
+}
+.ct:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+}
+.bookings{
+  border: 2px solid black;
+  border-radius:15px;
+  background-color: #031d44;
+  width:100%;
+  text-align:center;
+  margin-top:10px;
+  padding:10px;
+}
+.bookings a{
+    text-decoration: none;
+    color:white;
+    font-size:1.2rem;
+}
+.bookings a:hover{
+    color:red;
+}
+#awards{
+    height:18.75rem;
+    display:flex;
+    margin:20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.awd{
+    height:11.25rem;
+    border:2px solid black;
+}
+figcaption{
+    text-align: center;
+    padding:20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+#state{
+    text-align: center;
+    font-weight: bolder;
+    font-size:1.6rem;
+    padding:30px;
+    color:red;
+}
+#lastl{
+    font-weight: bolder;
+    font-size:1.2rem;
+    color:#031d44;
+}
+footer{
+    text-align:center;
+    height:2.2rem;
+    padding:auto;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content=""width=device-width, initial-scale="1.0">
+    <title>Booking</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.jpeg">
+    <link rel="stylesheet" href="styles/flight.css">
+  </head>
+  <body>
+
+<div id="container">
+
+  <form id="formgroup">
+
+    <h1>Book flight</h1>
+
+    <div id="form">
+      <h3>Booking Details</h3>
+   
+    <div id="input">
+        <input type="text" class="input-group" placeholder="From">
+        <input type="text" class="input-group" placeholder="To">
+        <input type="text" class="input-group" placeholder="Departure Date">
+        <input type="text" class="input-group" placeholder="Departure Time">
+      <select class="input-group" style="background:black">
+        <option value="">Choose your Flight</option>
+        <option value="">Airbus A320</option>
+        <option value="">Boeing 737</option>
+        <option value="">Comac c919</option>
+        <option value="">Airbus A330</option>
+        <option value="">Antonov An-148</option>
+        <option value="">Boeing 777</option>
+        <option value="">Airbus 220</option>
+        <option value="">Boeing 787</option>
+        <option value="">Comac c929</option>
+      </select>
+
+  <select class="input-group" style="background: black">
+    <option value="">class</option>
+    <option value="">First Class</option>
+    <option value="">Business</option>
+    <option value="">Economy</option>
+  </select>
+  <input type="number" id="input-seat" placeholder="Seat Number">
+</div>
+
+<div id="input2">
+
+  <input type="number" class="input-group" placeholder="Adult">
+  <input type="number" class="input-group" placeholder="Children(under 18)">
+
+</div>
+
+<div id="input3">
+
+  <select class="input-group" style="background: black">
+    <option value="">Select Trip</option>
+    <option value="">One Way</option>
+    <option value="">Round Trip</option>
+  </select>
+
+</div>
+
+
+<div id="input4">
+<input type="text" class="input-group" placeholder="Return Date (roundtrip)">
+</div>
+
+  <h3>Personal Details</h3>
+
+<div id="input6">
+
+  <input type="text" class="input-group" placeholder="Full Name">
+  <input type="character" class="input-group"  placeholder="ID Number">
+  <input type="Character" class="input-group"  placeholder="Passport Number">
+  <input type="character" class="input-group"  placeholder="Phone Number">
+  <input type="email" class="input-group" placeholder="Email">
+
+</div>
+
+<button class=button1><a href="index.html"  content="10" onclick="alert('Successfully booked!')">Submit</a></button>
+
+<form class="clear" action="clear.flight">
+  <button class="button1" type="submit">Clear</button>
+</form>
+
+</div>
+</form>
+</div>
+  </body>
+  </html>

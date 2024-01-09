@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+ body{
+  font-family: 'Alegreya', serif;
+  background-color: #ecf4d6;
+}
+
+ header{
+    display:flex;
+    background-image:url("/images/passport.jpg");
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size:cover;
+    flex-direction: column;
+    height:22rem;
+}
+#clogo{
+    height:5.625rem;
+    width:5.625rem;
+    color:#fff1d0;
+    border-radius:45px;
+    margin-left:20px;
+    margin-top: 20px;
+}
+#heading{
+    padding-left:20px;
+    padding-right:550px;
+    padding-top:40px;
+    color:#ecf4d6;
+    font-size:1.9rem;
+    font-weight: bolder;
+}
+
+#navli{
+  list-style: none;
+}
+.navitems{
+  display:inline;
+  margin:0rem 20px;
+}
+.navlinks{
+  text-decoration: none;
+  cursor:pointer;
+  color:black;
+  font-size:1.25rem;
+  font-weight:bolder;
+  font-family: 'Abhaya Libre', serif;
+}
+nav{
+  padding-top:40px;
+}
+nav a:hover{
+  border:solid 2px white;
+  border-radius: 3px;
+  padding:8px;
+  background-color:black;
+  color:white;
+}
+#navigation{
+  display:flex;
+  flex-direction: row;
+}
+#search{
+    width:100%;
+    height:4.4rem;
+    text-align:center;
+    margin:40px;
+}
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  width: 400px;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+#bbt1{
+  width:25rem;
+  height:3.125rem;
+  background-color: black;
+  border:3px solid white;
+  border-radius:15px;
+  color:white;
+  text-align: center;
+  font-size:1.5rem;
+}
+#bbt1:hover{
+  background-color: lightgray;
+  color:red;
+  border:none;
+  border-radius:0px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: white;
+  font-size: 1rem;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  color: red;
+  background-color: lightgrey;
+  font-size:1.25rem;
+}
+
+h1{
+  text-align: center;
+  font-size:1.9rem;
+  margin:40px;
+  color:red;
+  font-family: 'Abhaya Libre', serif;
+}
+h2{
+   text-align: center;
+   font-size:1.9rem;
+   font-style: italic;
+   margin:35px;
+}
+.display{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+}
+.figures{
+  border:2px solid black;
+  border-radius: 10px;
+  margin:20px;
+  width:30%;
+  height:18.75rem;
+  background-color: #031d44;
+  color:white;
+  text-align: center;
+  font-size:1.25rem;
+}
+.figures:hover{
+  transform:scale(1.06);
+  cursor:pointer;
+  background-color:black;
+  box-shadow: 8px 8px 10px black;
+  color:white;
+}
+.fimg{
+  width:100%;
+  height:75%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.flight{
+  padding:10px;
+  margin:30px;
+  width:12.5rem;
+  border:2px solid black;
+  border-radius:30px;
+  text-align:center;
+}
+.flight a{
+  text-decoration: none;
+  color:black;
+  font-size:1rem;
+  font-weight:bold;
+}
+h3{
+  text-align: center;
+  margin:20px;
+  color:red;
+  font-size:2rem;
+}
+section{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+article{
+  padding:30px;
+  width:30%;
+  font-weight:600;
+}
+h4{
+  padding-bottom: 20px;
+  color:red;
+  text-decoration: underline;
+  font-size:1.5rem;
+}
+article p{
+  font-size:1.1rem;
+}
+#lastl{
+  font-weight: bolder;
+  font-size:1.2rem;
+  color:#031d44;
+}
+footer{
+  text-align:center;
+  height:2.2rem;
+  padding:auto;
+}
+

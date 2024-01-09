@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+ body{
+    font-family: 'Alegreya', serif;
+    background-color: #e5e4e2;
+    background-image:url("/images/globe.jpeg");
+ }
+ h1{
+    text-align: center;
+    padding:10px;
+ }
+#form{
+    background-color: #031d44;
+    height: 33.3rem;
+    width: 43.75rem;
+    margin: auto;
+    padding: 20px;
+}
+#form h3{
+    text-decoration: underline;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 10px;
+}
+
+ ::placeholder{
+    color: white;
+    font-size:0.9rem;
+}
+
+.input-group{
+width: 12.5rem;
+margin:10px;
+border-top: none;
+border-left: none;
+border-right: none;
+outline: none;
+background: transparent;
+color: white;
+}
+
+#input-seat{
+    background: black;
+    outline:none;
+    color:white;
+}
+.button1{
+    border:2px solid black;
+    border-radius:7px;
+    text-align: center;
+    width:6.9rem;
+    height:2.5rem;
+    padding:auto;
+    margin:10px 30px 20px 10px;
+    font-size:1.2rem;
+}
+.button1 a{
+    text-decoration: none;
+    color:black;
+}
